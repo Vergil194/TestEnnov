@@ -1,0 +1,45 @@
+# Test Technique pour Développeur fullstack vue/aspnetcore
+Ce test a pour but de valider les aptitudes en Vue, aspnetcore et à consommer des API externes.
+Bien qu'il couvre le front et le back, il est assez rapide à réaliser.
+
+## Demande
+En tant qu'utilisateur, je veux pouvoir lister, dans une table, une liste d'entreprises et les informations disponibles pour chacune d'elles.
+Pour celà, l'application va utiliser les données du registre du commerce Suisse accessible via l'api "zefix".
+
+L'utilisateur peut ajouter des entreprises en tapant l'identifiant unique (numéro IDE), par exemple "CHE229009661" ou "CHE-106.831.974"...
+Ces entreprises seront affichées dans une table avec au minimum les colonnes suivantes : 
+- Adresse
+- forme juridique
+- siège
+- Bonus : date de dernière modification
+
+L'utilisateur doit pouvoir ajouter une entreprise au moyen de son code IDE.
+Il doit également pouvoir supprimer une entreprise de la liste
+Si l'utilisateur ferme et rouvre la page, les entreprises ajoutées au préalable doivent encore être présentes.
+
+## Détails techniques
+
+### Impératifs
+- Le backend doit être en aspnetcore (pas la peine de mettre en place un système d'authentification, uniquement le nécessaire consommé par le front)
+- Le front doit être en vue (possibilité d'utiliser nuxt)
+- Le design ne sera pas pris en compte outre mesure. S'assurer uniquement que l'interface est claire et compréhensible pour un utilisateur lambda.
+
+### API registre du commerce suisse (Zefix)
+https://www.zefix.admin.ch/ZefixPublicREST/swagger-ui/index.html
+- Nom d'utilisateur: counteo@counteo.ch
+- Mot de passe: TFjEeUzz
+
+## Critères d'évaluation
+L'application doit être fonctionnelle et répondre aux impératifs techniques cités ci-dessus.
+La persistence de la liste des entreprise peut être effectuée dans le front ou le back, au choix.
+Le reste des choix techniques est libre.
+
+Le code, sa structure, ses commentaires etc... sont aux choix du candidat.
+
+## Livraison
+Le projet doit être soumis sous forme de lien vers un dépôt Git (par exemple, GitHub ou GitLab).
+Un fichier README doit expliquer brièvement les étapes nécessaires pour lancer le projet localement.
+
+Les spécifications fournies sont délibérément très peu complètes afin de laisser libre les initiatives personnelles du candidat afin de répondre à la demande initiale.
+
+Bonne chance !
