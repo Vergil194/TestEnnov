@@ -23,7 +23,9 @@ Navigate to the UI directory:
 ```bash
 cd path/to/SwissBizInsight/swiss_biz_ui
 ```
-
+```bash
+npm install
+```
 Run the UI with the following command:
 
 ```bash
