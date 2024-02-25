@@ -32,4 +32,4 @@ Run the UI with the following command:
 npm run serve
 ```
 
-Now, your SwissBiz Insight application should be running. Open your browser and go to http://localhost:8080/ to access the application.
+Now, your SwissBiz Insight application should be running. Open your browser and go to the url localhost to access the application.
