@@ -7,7 +7,7 @@ Follow these steps to launch SwissBiz Insight:
 Navigate to the API directory:
 
 ```bash
-cd path/to/SwissBizInsight/Api
+cd path/to/TestEnnov/Api
 ```
 
 Run the API using the following command:
@@ -21,7 +21,7 @@ dotnet run
 Navigate to the UI directory:
 
 ```bash
-cd path/to/SwissBizInsight/swiss_biz_ui
+cd path/to/TestEnnov/swiss_biz_ui
 ```
 ```bash
 npm install
